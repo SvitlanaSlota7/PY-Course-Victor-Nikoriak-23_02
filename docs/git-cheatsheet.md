@@ -374,26 +374,6 @@ gitGraph
 
 ---
 
-# Rebase (просунутий)
-
-Rebase — це **переписування історії commit**.
-
-```mermaid
-gitGraph
-   commit
-   commit
-   branch homework
-   commit
-   checkout main
-   commit
-   checkout homework
-   rebase main
-```
-
-У курсі **rebase не використовується**.
-
----
-
 # Головне правило Git
 
 Перед будь-якою роботою перевіряйте:
